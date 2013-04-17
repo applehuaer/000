@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#login{	background-image:url(../image/loginbackground.jpg); width:990px; height:621px; margin:0}
+input{ width:255px; height:33px; font-size:24px;}
+#input1{ position:relative;top:257px; left:148px; font-weight:bold; }
+.in1{position:relative;top:280px; left:148px;}
+
+#input2{ position:relative;top:276px; left:148px;font-weight:bold; }
+.in2{ margin:0;position:relative;top:295px; left:148px; background-image:url(../image/loginbutton.png); height:30px; width:100px;}
+
+.in3{position:relative;top:298px; left:225px;}
+.bluea{ color:#06C; font-weight:bold; font-size:18px;}

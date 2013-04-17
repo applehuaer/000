@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.2.custom.js"></script>
+	<script>
+	$(function() {	
+		$( "#slider" ).slider({
+		//	range: true,
+		//	option:{ disabled: false },
+			values: [0],
+			slide: function(e, i) {
+				
+			$("#bb").text(i.value);
+			
+			$("#cc").css("width", i.value * 3 + "px");
+			/*if(i.value  > 50)
+			$("#cc").css("width", (i.value * 11)-12 + "px");*/	
+		}
+		});
+		
+	});
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	$(function(){
+		var tt=$("#text");
+		var  s=$("<div id='slider1'></div> <br/> ").insertAfter(tt).slider({
+			/*min:0,
+			max:100,*/
+			/*values: tt.val(),*/
+			value:0,
+			slide: function(e, i) {
+				tt.val(i.value);
+			}
+		
+		
+		});
+		
+		
+	/*	function butt(){
+		var getval=$("#text").val();
+		alert(getval);
+		};*/
+		
+		$("#butt").click(function(){
+		   var getval=$("#text").val();
+		   $("<div id='slider1'></div> <br/> ").insertAfter(tt).slider( "value",getval);
+			alert(getval);
+		});
+				
+		/*function Getnumber(){
+			var getval=$("#text").val();
+			alert(getval);
+		}*/
+		
+		
+		
+		$("#text").keyup(function(){
+			var getval=$("#text").val();
+		   s.slider( "value",getval);
+		 //  alert('');
+		});
+		
+		
+		});
+		
+		
+		
+		
+		$(function() {
+		var select = $( "#minbeds" );
+		var slider = $( "<div id='slider'></div>" ).insertAfter( select ).slider({
+			min: 1,
+			max: 6,
+			range: "min",
+			value: select[ 0 ].selectedIndex + 1,
+			slide: function( event, ui ) {
+				select[ 0 ].selectedIndex = ui.value - 1;
+			}
+		});   /*滑动条改变 选择框跟着改*/
+		
+		$( "#minbeds" ).change(function() {
+			slider.slider( "value", this.selectedIndex + 1 );
+		});  /*选择框改字跟着改*/
+	});
+
+  
+	</script>
+	<style>
+		#slider1{
+		width:300px;}
+	
+	</style>
+</head>
+<body>
+
+<!-- Slider -->
+
+<div id="slider" style="width:300px">
+<div id="cc" style="width:0px; height:15px;background:red;"></div>
+</div>
+<br/>
+<br/>
+<br/>
+
+<div id="bb"></div>
+
+<input id="text" name="123" type="text" value="0" onChange="ggg();" / >
+<input type="button" value="okooo" onClick="Getnumber()"  id="butt"/>
+<br/>
+<br/>
+<br/>
+
+<form id="reservation">
+	<label for="minbeds">Minimum number of beds</label>
+	<select name="minbeds" id="minbeds">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+	</select>
+</form>
+
+</body>
+</html>

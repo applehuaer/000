@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+margin:0 auto;
+padding:0 0;
+
+}
+
+
+body{
+height:auto;
+
+}
+
+ul li{list-style:none;}
+
+img{ border:none;}
+
+h2{
+color:#7f9650;
+font-weight:bolder;
+font-size:19px;
+padding-bottom:5px;
+padding-top:3px;
+
+
+}
+h3{
+color:#49648f;
+padding:18px 15px;
+font-weight:bolder;
+font-size:20px;}
+
+
+a:link,a:visited,a:active{
+	color:#FFF;
+	text-decoration:none;
+}
+a:hover{ color:#F90; text-decoration:none;}
+
+h3 a:hover{
+	text-decoration:underline;
+}
+
+.border-rt{border-top:#000 1px solid;border-right:#000 1px solid;}
+
+#logo{
+	border-top:#000 1px solid;border-right:#000 1px solid;border-left:#000 1px solid;
+	width:990px;
+	height:140px;
+	background-color:#000;
+	text-align:right;
+	background-repeat:no-repeat;
+	font-size:17px;
+	font-family: "黑体", "宋体",serif;
+	position:relative;
+	color:#FFF;
+}
+
+#logoimg{position:absolute; left:37px;; top:15px;}
+
+#logo-down{
+width:900px;
+height:70px;
+padding:60px 120px 0 0;
+}
+
+#logo-down ul li{
+	font-size:15px;
+	height:70px;
+	display:inline;
+	padding-left:5px;
+	padding-top:0px;
+	width:120px;
+}
+#logo-down ul .logosolar{ position:relative;top:-25px;left:55px;font-size:12px; }
+
+#logo-nav{ position:relative;top:-15px;font-family:"黑体", "宋体", "宋体-方正超大字符集", "新宋体", "Times New Roman", Georgia; font-weight:bold; color:#FFF; font-size:17px;}
+#logo-nav ul li{display:inline; margin:0 40px 0 0;}
+
+#main{
+	border-right:#000 1px solid;border-left:#000 1px solid;
+	width:990px;
+	min-height:700px;
+	font-family: "宋体", serif;
+	font-weight:450;
+	color:#231F22;
+	background-color:#555f66;
+
+}
+
+
+#footer{
+	border-bottom:#000 1px solid;border-right:#000 1px solid;border-left:#000 1px solid;
+	width:990px;
+	height:60px;
+	background-color:#000;
+	color:#FFFFFF;
+	position:relative;
+}
+
+.copyright
+{
+position:absolute;
+top:25px;
+left:45px;}
+
+.shengming{
+position:absolute;
+top:28px;
+right:20px;
+font-size:10px;}
+#footer ul li{
+display:inline;}
+
+
+	
+
