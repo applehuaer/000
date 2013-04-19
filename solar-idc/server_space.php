@@ -1,28 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/server-1.js" type="text/javascript"></script>
-<link href="./js/server-1.css" rel="stylesheet">
-<title>服务器</title>
-</head>
+<?php include"./tpl/head_b.html";?>
+<script src="./tpl/js/jquery.min.js" type="text/javascript"></script>
+<script src="./tpl/js/server_space.js" type="text/javascript"></script>
+<link href="./tpl/js/server_space.css" rel="stylesheet">
+<?php include"./tpl/header.html";?>
 
-<body>
-
-<div id="logo-z">
-	<div  style="position:absolute; left:55px;; top:35px;">
-    	<a href="index.html"><img src="image/logo-mark.jpg" alt="芯联网络" border="0" /></a>
-    </div>
-    <div id="logo-down">
-		<ul>
-			<li><a href="./index.html"><img src="./image/home.png" alt="首页" /></a></li>|
-			<li><a href="#"><img src="image/fwgg.png" alt="服务公告" /></a></li>|
-			<li><a href="#"><img src="image/lxwm.png" alt="联系我们" /></a></li>
-		</ul>	
-  </div>  <!--   logo-down结束   -->
-</div>   <!--   logo-z结束   -->
-	
 <div id="main">
 	<div id="main-top"></div>
     <div id="product">
@@ -80,7 +61,7 @@
                 <li year="3"><strong>3年1044元</strong>   省696元</li>
                 <li year="5"><strong>5年1740元</strong>   省1160元</li>
                 </ul>
--->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="image/a-button-2.png" /></a>
+-->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="tpl/image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="tpl/image/a-button-2.png" /></a>
                     </div>
                 </div>
         </div>
@@ -138,7 +119,7 @@
                 <li year="3"><strong>3年1044元</strong>   省696元</li>
                 <li year="5"><strong>5年1740元</strong>   省1160元</li>
                 </ul>
--->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="image/a-button-2.png" /></a>
+-->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="tpl/image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="tpl/image/a-button-2.png" /></a>
                     </div>
                 </div>
         </div>
@@ -196,7 +177,7 @@
                 <li year="3"><strong>3年1044元</strong>   省696元</li>
                 <li year="5"><strong>5年1740元</strong>   省1160元</li>
                 </ul>
--->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="image/a-button-2.png" /></a>
+-->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="tpl/image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="tpl/image/a-button-2.png" /></a>
                     </div>
                 </div>
         </div>
@@ -257,7 +238,7 @@
                 <li year="3"><strong>3年1044元</strong>   省696元</li>
                 <li year="5"><strong>5年1740元</strong>   省1160元</li>
                 </ul>
--->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="image/a-button-1.png" alt="联系客服" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="image/a-button-2.png" /></a>
+-->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="tpl/image/a-button-1.png" alt="联系客服" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="tpl/image/a-button-2.png" /></a>
                     </div>
                 </div>
         </div>
@@ -315,7 +296,7 @@
                 <li year="3"><strong>3年1044元</strong>   省696元</li>
                 <li year="5"><strong>5年1740元</strong>   省1160元</li>
                 </ul>
--->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="image/a-button-2.png" /></a>
+-->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="tpl/image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="tpl/image/a-button-2.png" /></a>
                     </div>
                 </div>
         </div>
@@ -373,28 +354,12 @@
                 <li year="3"><strong>3年1044元</strong>   省696元</li>
                 <li year="5"><strong>5年1740元</strong>   省1160元</li>
                 </ul>
--->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="image/a-button-2.png" /></a>
+-->                <div class="product-buy"><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-buy"><img src="tpl/image/a-button-1.png" /></a><a href="tencent://message/?uin=1798086145&amp;Menu=yes" class="button-try"><img src="tpl/image/a-button-2.png" /></a>
                     </div>
                 </div>
         </div>
 
     </div>
-</div> <!--   mian结束    -->
-	
-<div id="footer">
-	<div class="copyright" > 
-    	<a href="./index.html"><img src="image/gzswxl.png" alt="广东汕尾芯联科技有限公司" /></a> 
-    </div>
-	<div class="shengming">  
-		<ul>
-			<li><a href="#"><img src="image/f1.png" alt="法律声明" /></a></li>|
-			<li><a href="#"><img src="image/f2.png" alt="关于我们"/></a></li>|
-			<li><a href="#"><img src="image/f3.png" alt="网站建设" /></a></li>
-		</ul>
-	</div>
 </div>
-	
-
-
-</body>
-</html>
+    
+<?php include"./tpl/footer.html";?>

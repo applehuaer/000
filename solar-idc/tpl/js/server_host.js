@@ -247,7 +247,7 @@ function addvalue(){
 
 function slideraa(idv,minv,maxv,valuev,stepv,choosev) {
 	var tt=$("#"+idv);
-	var  s=$("<div id='"+idv+"-slider' class='slider' ><img src='image/slider.jpg' width='550px' height='25px' /></div> ").insertAfter(tt).slider({
+	var  s=$("<div id='"+idv+"-slider' class='slider' ><img src='tpl/image/slider.jpg' width='550px' height='25px' /></div> ").insertAfter(tt).slider({
 		min:minv,
 		max:maxv,
 		value:valuev,

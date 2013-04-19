@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main{ background-color:#ECECEC; text-align:center; height:1100px; font-family:"黑体", "宋体", "宋体-方正超大字符集", "新宋体", "Times New Roman", Georgia;}
+#topbanner{ padding:5px;}
+#llist{ background-image:url(../image/llist.png); width:280px; height:600px; float:left; margin-left:10px; padding-top:80px; margin-top:60px; font-weight:bold; color:#9A2D2C;}
+#llist ul { line-height:90px; width:150px;font-size:24px;}
+#llist ul li{ font-size:18px;line-height:50px; border-bottom:1px #9BC77A solid;}
+.keeperli a:link,.keeperli a:visited,.keeperli a:active{color:#000;text-decoration:none;}
+#llist ul li a:hover{ color:#9A2D2C; text-decoration:none; }
+.keeperlion a:link,.keeperlion a:visited,.keeperlion a:active{color:#9A2D2C;text-decoration:none;}
+#rlist{ width:950px;}
+#rlist p{ text-align:left;font-size:15px; line-height:25px;}
+#rlist dl{ float:left; width:339px; height:200px;padding-top:60px;width:339px; }
+#rlist dl dd{ float:left; padding-left:95px; padding-top:9px; font-size:13px; font-weight:bold;}
+.bold_standout{ font-weight:bold;}
+.red_standout{ color:#F00;}
+#dl1{ background-image:url(../image/1u.png)}
+#dl2{ background-image:url(../image/2u.png)}
+#dl3{ background-image:url(../image/4u.png)}
+#dl4{ background-image:url(../image/10u.png)}
+#dl5{ background-image:url(../image/half.png)}
+#dl6{ background-image:url(../image/whole.png)}
