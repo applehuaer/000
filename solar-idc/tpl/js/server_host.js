@@ -9,6 +9,14 @@ $(document).ready(function(){
 	slideraa('gbtext',0,2000,0,10,'choose-GB');
 	slideraa('mbtext',0,200,0,1,'choose-MB');
 	
+	changess('1he');
+	changess('5hm');
+	changenum('gbtext',30);
+	changenum('mbtext',2);
+	$("#Month").text(84);
+	$("#Year").text(840);
+	
+	
 	$("#m-d-up a").click(
 		function(){
 			aparents=$(this).parents('ul').attr('id');

@@ -5,7 +5,7 @@
 <script src="./tpl/js/jquery-ui-1.10.2.custom/js/jquery-1.9.1.js"></script>
 <script src="./tpl/js/jquery-ui-1.10.2.custom/js/jquery-ui-1.10.2.custom.js"></script>
 <script src="./tpl/js/server_host.js" type="text/javascript"></script>
-<?php include"./tpl/header.html";?>
+<?php include"./checklogin.php";?>
 
 <div id="main">
 		<div id="main-z-down">
@@ -50,13 +50,10 @@
 					
 				</ul>
             </div>
-			<br />
-			<div class="duiqi" ><img src="tpl/image/xtp.jpg" alt="系统盘：免费赠送（linux送20GB，windows送40GB）" /></div>
-				
 			<div class="m-d-slider">
 					
 				<span><img src="tpl/image/sjp.jpg" alt="数据盘：" /></span> 
-				<ul>
+			  <ul>
 					<li class="youdui">
                         <input type="text" value="0" id="gbtext"/>
 					</li>
@@ -117,10 +114,7 @@
 						
 				</ul>
                 <br />
-				<div class="duiqi1">
-                   	<img src="tpl/image/bz.jpg" alt="为了保证良好的性能体验，512M内存不提供windows操作系统。" />
-                </div>
-            </div>
+          </div>
             
 			<div class="m-d-slider">
 				<dl>

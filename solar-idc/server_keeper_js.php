@@ -1,6 +1,6 @@
 <?php include"./tpl/head_b.html";?>
 <link href="./tpl/js/server_keeper.css" rel="stylesheet">
-<?php include"./tpl/header.html";?>
+<?php include"./checklogin.php";?>
 <div id="main">   <!--   main开始   -->  <!--  main   -->
     <div id="topbanner">
     	<img src="./tpl/image/keeper_banner.png" />
@@ -8,8 +8,8 @@
     <div id="content">
     	<div id="llist">
         	<ul>主机托管
-            	<li class="keeperli"><a href="#">套餐详情</a></li>
-                <li class="keeperlion"><a href="#">机房介绍</a></li>
+            	<li class="keeperli"><a href="./server_keeper_tc.php">套餐详情</a></li>
+                <li class="keeperlion"><a href="./server_keeper_js.php">机房介绍</a></li>
                 <li class="keeperli"><a href="#">客户案例</a></li>
             </ul>
         </div>

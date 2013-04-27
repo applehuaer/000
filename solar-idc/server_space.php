@@ -2,7 +2,7 @@
 <script src="./tpl/js/jquery.min.js" type="text/javascript"></script>
 <script src="./tpl/js/server_space.js" type="text/javascript"></script>
 <link href="./tpl/js/server_space.css" rel="stylesheet">
-<?php include"./tpl/header.html";?>
+<?php include"./checklogin.php";?>
 
 <div id="main">
 	<div id="main-top"></div>

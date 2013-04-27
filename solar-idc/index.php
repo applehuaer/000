@@ -1,6 +1,6 @@
 <?php include"./tpl/head_b.html";?>
 <link href="./tpl/js/homeb.css" rel="stylesheet">
-<?php include"./tpl/header.html";?>
+<?php include"./checklogin.php";?>
 
 <div id="main">
 
@@ -35,10 +35,10 @@
 	  
 	<div id="mian-down">
 	  	<div id="mian-down-l" class="border-rt" style="background-image:url(./tpl/image/bg2.jpg)">
-			<h3 style=" padding:18px 0 23px 0px; "><a href="./server-1.html"><img src="./tpl/image/m-d-t1.jpg" alt="云虚拟主机" /></a></h3>
+			<h3 style=" padding:18px 0 23px 0px; "><a href="./server_space.php"><img src="./tpl/image/m-d-t1.jpg" alt="云虚拟主机" /></a></h3>
 			
 			<span><img src="./tpl/image/m-d-word.jpg" alt="提供全方位虚拟主机解决方案，全面解决国内及国际网络连通问题，确保网站可稳定快速访问。" /></span>
-			<p style=" margin:0; padding:15px 0px 3px 0px"><a href="./server-1.html"><img src="./tpl/image/details.jpg" alt="详细信息" /></a></p>
+			<p style=" margin:0; padding:15px 0px 3px 0px"><a href="./server_space.php"><img src="./tpl/image/details.jpg" alt="详细信息" /></a></p>
 			<p style="margin:0;"><img src="./tpl/image/circle.jpg" /></p>
 			
 			<h3 style=" padding:18px 0 5px 0px; "><a href="http://domain.solar-idc.cn/"><img src="./tpl/image/Domain.jpg" alt="域名申请" /></a></h3>
@@ -52,7 +52,7 @@
 				
 			</div>
 		<div id="mian-down-m" class="border-rt"  style="background-image:url(./tpl/image/bg3.jpg)">
-			<h3><a href="./Co-location.html"><img src="././tpl/image/m-d-t2.jpg" alt="主托管机" /></a></h3>
+			<h3><a href="./server_keeper_tc.php"><img src="././tpl/image/m-d-t2.jpg" alt="主托管机" /></a></h3>
 			<div class="mian-down-m-1">
 				<ul>
 					<li><img src="./tpl/image/LOGO.png" /></li>
@@ -80,43 +80,43 @@
 					<li><div class="mian-down-m-word1"><img src="./tpl/image/m-d-word4.jpg" alt="全球首个太阳能数据中心机房，完全依赖太阳能供电，拒绝污染，引领机房建设未来新潮流" /></div></li>
 				</ul>
 				
-				<p style="padding-top:22px;"><a target="_blank" href="./Co-location.html"><img src="./tpl/image/details.jpg" alt="详细信息" /></a></p>
+				<p style="padding-top:22px;"><a href="./server_keeper_tc.php"><img src="./tpl/image/details.jpg" alt="详细信息" /></a></p>
 				
 			</div><!--mian-down-m-1-->
 			
 		</div>
 		<div id="mian-down-r" class="border-rt" style="background-image:url(./tpl/image/bg4.jpg)" >
 			<div class="mian-down-m-2">
-				<h3 style="padding-left:0px;  padding-bottom:18px;"><a href="./Cloud-Servers.html"><img src="./tpl/image/m-d-t3.png" alt="云服务器" /></a></h3>
+				<h3 style="padding-left:0px;  padding-bottom:18px;"><a href="./server_host.php"><img src="./tpl/image/m-d-t3.png" alt="云服务器" /></a></h3>
 				<h4  ><img src="./tpl/image/m-d-t4.png" alt="云服务器各种热门机型推荐"/></h4>
 				<ul>
 					<li><img src="./tpl/image/list-word1.png" alt="入门级" /></li>
 					<li><img src="./tpl/image/list-word2.png" alt="经济型" /></li>
 				</ul>
-				<p><a href="./server.html"><img src="./tpl/image/detail1.png" alt="详细信息" /></a></p>
+				<p><a href="./server_host.php"><img src="./tpl/image/detail1.png" alt="详细信息" /></a></p>
 				<p style="margin:3px 0; padding:0; "><img src="./tpl/image/circle1.png" width="280px" height="3" /></p>
 			</div>
 			
 			<div class="mian-down-m-2">
-				<h3 style="padding-left:0px;  padding-bottom:12px;"><a href="#"><!--<img src="./tpl/image/m-d-t5.png" alt="网站建设" />--></a></h3>
+				<h3 style="padding-left:0px;  padding-bottom:12px;"><a href="./websites.php"><img src="./tpl/image/m-d-t5.png" alt="网站建设" /></a></h3>
 				<ul>
 					<li><img src="./tpl/image/list-word3.png" alt="企业标准网站" /></li>
 					<li><img src="./tpl/image/list-word4.png" alt="电子商务网站" /></li>
 					<li><img src="./tpl/image/list-word5.png" alt="其它网建产品" /></li>
 				</ul>
-					<p ><a href="#"><img src="./tpl/image/detail1.png" alt="详细信息" /></a></p>
+					<p ><a href="./websites.php"><img src="./tpl/image/detail1.png" alt="详细信息" /></a></p>
 				<p style="margin:3px 0px; padding:0 "><img src="./tpl/image/circle1.png" width="280px" height="3" /></p>
 			
 			</div>
 			
 			<div class="mian-down-m-2">
-				<h3 style="padding-left:0px; padding-bottom:12px;"><a href="#"><img src="./tpl/image/m-d-t6.png" alt="我们都是合作者" /></a></h3>
+				<h3 style="padding-left:0px; padding-bottom:12px;"><a href="./cooperation.php"><img src="./tpl/image/m-d-t6.png" alt="我们都是合作者" /></a></h3>
 				<ul>
 					<li><img src="./tpl/image/list-word6.png" alt="互联网企业" /></li>
 					<li style="padding-top:2px;"><img src="./tpl/image/list-word7.png" alt="IDC运营商" /></li>
 					<li><img src="./tpl/image/list-word8.png" alt="网络创业者" /></li>
 				</ul>
-					<p><a href="#"><img src="./tpl/image/detail1.png" alt="详细信息" /></a></p>
+					<p><a href="./cooperation.php"><img src="./tpl/image/detail1.png" alt="详细信息" /></a></p>
 			</div>
 			
 		

@@ -4,16 +4,16 @@ img{ margin:0; padding:0;}
 .okbar{ margin:40px 0; height:66px; width:990px;}
 .stepok{background-color:#FF0;}
 .stepno{background-color:#CCC;}
-.registerbox{ margin:40px 100px 0 100px; height:370px; border:#CCC solid 1px;;}
-.rinfo{ float:left; margin-top:30px;}
-.rinfo input{ width:260px; height:25px}
+.registerbox{ margin:40px 100px 0 100px; height:370px; border:#CCC solid 1px; }
+.rinfo{margin:15px 0 0 0; height:300px; width:500px; display:block; float:left;}
+.rinfo input{ width:240px; height:25px}
 .rinfo img{ height:25px;}
-.rmessage{ float:left; border-left:#CCC solid 1px; margin:50px 0 0 60px; padding:50px 50px 130px 50px;}
+.rmessage{ float:left; border-left:#CCC solid 1px; margin:45px 0 0 0px; padding:50px 50px 130px 50px;}
 dl{ margin:35px 0 0 0;}
 .rmessage p{ font-size:12px;}
 dt{width:170px; line-height:28px; float:left; font-weight:bold; text-align:right; margin:0; vertical-align:middle;}
 dd{line-height:30px; display:inline-block;}
-.okbutton{position:relative;top:30px; left:0px; background-image:url(../image/loginbutton.png); height:30px; width:100px;color:#06C; font-weight:bold; font-size:18px;}
+.rinfo .okbutton{ margin:0 0 0 170px;background:url(../image/loginbutton.png) no-repeat; height:35px; width:105px;color:#06C; font-weight:bold; font-size:18px;}
 .star{ color:#F00;}
 
 
